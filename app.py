@@ -1,7 +1,7 @@
 import streamlit as st
 import fitz #PyMuPDF
 
-st.title("PDF'ten OCR ile Metin Çıkarma ve Analiz Platformu")
+st.title("PDF'ten PyMuPDF ile Metin Çıkarma ve Analiz Platformu")
 
 uploaded_file = st.file_uploader("PDF dosyası yükleyin",type="pdf")
 
